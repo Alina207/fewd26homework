@@ -1,0 +1,111 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+
+/* Column Layout and Containers */
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background: #FFF;
+    color: #444;
+}
+
+a {
+    color: #D00;
+    text-decoration: none;
+    transition: all 300ms;
+  
+
+}
+
+.outerWrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.sartrePrimary {
+    width: 700px;
+    float: left;
+}
+
+.sartreSecondary {
+    width: 220px;
+    float: right;
+}
+
+
+
+
+/* Header */
+
+.satreMainNav ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.satreMainNav li {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.satreMainNav li a {
+  background: black;
+  color: white;
+  display: block;
+  padding: 20px 40px;
+  margin-right: 1px;
+  text-decoration: none;
+}
+
+.satreMainNav li a:hover {
+  background: red;
+}
+
+.satreMainNav li:last-child a {
+    border-right:none;
+}
+
+.sartreHeader {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5;
+    background: #FFF;
+    color: #444;
+}
+
+.sartreLogoHaus {
+  display: inline;
+    margin-right: .5em;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+.tagline {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #888;
+    margin-bottom: .5em;
+    padding: 0;
+    display: inline;
+}
+
+footer {
+  clear: both;
+}

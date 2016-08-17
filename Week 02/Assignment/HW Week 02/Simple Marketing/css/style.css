@@ -1,0 +1,55 @@
+.wrapper {
+    max-width:960px;
+    padding: 10px 15px 5px 15px;
+    margin: 0 auto;
+}
+
+header {
+ 	width: 100%;
+ 	overflow: auto;
+ }
+
+article {
+	width: 1400px;
+}
+
+.firstBox {
+  width: 34%;
+  float: left;
+}
+
+.secondBox {
+  width: 34.5%;
+  float:left;
+}
+
+ .firstColumn {
+ 	width: 33%;
+ 	float: left;
+ 	clear:both;
+ }
+
+ .secondColumn {
+ 	width: 34%;
+ 	float: left;
+ }
+
+  .thirdColumn {
+ 	width: 33%;
+ 	float: left;
+ }
+
+footer {
+	width: 100%;
+	clear: both;
+	overflow: auto;
+}
+
+.placeholder {
+   border: 1px solid black;
+   background: gray;
+   padding: 20px;
+   height: 150px;
+   margin: 10px;
+}
+

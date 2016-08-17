@@ -1,0 +1,42 @@
+
+header {
+ 	width: 100%;
+ 	overflow: auto;
+ }
+
+.wrapper {
+    max-width:960px;
+    padding: 25px 15px 5px 15px;
+    margin: 0 auto;
+}
+
+ .firstColumn {
+ 	width: 25%;
+ 	float: left;
+ 	clear:both;
+ }
+
+ .secondColumn {
+ 	width: 50%;
+ 	float: left;
+ }
+
+  .thirdColumn {
+ 	width: 25%;
+ 	float: left;
+ }
+
+footer {
+	width: 100%;
+	clear: both;
+	overflow: auto;
+}
+
+.placeholder {
+   border: 1px solid black;
+   background: gray;
+   padding: 20px;
+   height: 150px;
+   margin: 10px;
+}
+
